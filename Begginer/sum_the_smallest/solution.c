@@ -2,6 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+
+// You can alternatively use qsort... I wanted to sort it myself.
 long sum_two_smallest_numbers(size_t n, const int numbers[n]) 
 {
     int diff,sorted[n];
