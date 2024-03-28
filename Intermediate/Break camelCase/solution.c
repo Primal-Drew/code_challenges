@@ -29,6 +29,6 @@ char* solution(const char *camelCase)
 
 int main()
 {
-    const char* camelCase = "AndrewOgInaTyconMyGod";
+    const char* camelCase = "ThisIsCamelCase";
     printf("The Result: %s\n",solution(camelCase));
 }
